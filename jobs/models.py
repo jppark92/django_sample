@@ -1,6 +1,7 @@
 from django.db import models
 
-# Create your models here.
+# 이곳은 모델정의..
+
 class Location(models.Model):
 	city = models.CharField(max_length=50)
 	state = models.CharField(max_length=50,null=True,blank =True)
